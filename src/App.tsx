@@ -19,7 +19,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 
-// ข้อมูลสินค้าของคุณเอม
+// ข้อมูลสินค้าของปัน
 const PRODUCTS = [
   {
     id: 1,
@@ -286,8 +286,9 @@ export default function App() {
             <div className="bg-sky-400 p-2 rounded-full text-white">
               <Fish size={24} />
             </div>
+            {/* แก้ชื่อตรงบรรทัดนี้ครับ */}
             <h1 className="text-xl md:text-2xl font-bold text-sky-800 tracking-tight">
-              Aim's Seafood <span className="text-sky-400">🌊</span>
+              PunPun'S seafood <span className="text-sky-400">🌊</span>
             </h1>
           </div>
           <div className="flex gap-2 md:gap-4">
